@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+        <title>Tom's Website</title>
+        <link rel="icon" type="image/png" href="./images/palette-fill.svg" sizes="16x16">  
+        <script src="./javascript/paintings.js" defer></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+           <div class="container">
+               <div id="painting">
+                <h1>Painting at your service</h1>
+               </div>               
+           </div> 
+           <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="current"><a href="paintings.html">Paintings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           </nav>
+        </header>
+
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to my newsletter</h1>
+                <form action="post">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>                
+        </section>
+
+
+        <section id="paintings">
+            <div class="container">
+                <h1>Actors with indian ink</h1>
+                <div class="slideshow">
+                    <div class="mySlides">
+                        <div class="numberText">1 / 5</div>
+                        <img src="./images/cowboy.jpg" style="width:100%">
+                        <div class="slideText">Charles Bronson</div>
+                    </div>
+        
+                    <div class="mySlides">
+                        <div class="numberText">2 / 5</div>
+                        <img src="./images/clint.jpg" style="width:100%">
+                        <div class="slideText">Clint Eastwood</div>
+                    </div>
+        
+                    <div class="mySlides portrait">
+                        <div class="numberText_portrait">3 / 5</div>
+                        <img src="./images/et.jpg" style="width:100%">
+                        <div class="slideText_portrait">The Extraterrestrial</div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numberText">4 / 5</div>
+                        <img src="./images/summerwine.jpg" style="width:100%">
+                        <div class="slideText">Summer Wine</div>
+                    </div>
+        
+                    <div class="mySlides">
+                        <div class="numberText">5 / 5</div>
+                        <img src="./images/winslet.jpg" style="width:100%">
+                        <div class="slideText">Kate Winslet</div>
+                    </div>
+        
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+        
+                </div>
+            </div>
+            <div class="rowOfDots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
+        <br>
+        <footer>
+            <p>Copyright &copy;2024 by Tom Vandenabeele</p>
+        </footer>
+
+    </body>
+</html>
