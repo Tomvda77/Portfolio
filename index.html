@@ -16,8 +16,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="icon" href="/images/favicon_logo.png" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Portfolio Tom</title>
+    <title>Creative cards - portfolio</title>
   </head>
   <!-- Google tag (gtag.js) -->
   <script
@@ -33,122 +34,163 @@
 
     gtag('config', 'G-NP215E08MQ');
   </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js"
+    integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
   <body>
     <header>
-      <div class="header-container">
-        <h1>Website Portfolio</h1>
-        <p>Take a look at my websites</p>
+      <div class="header-container header-flex">
+        <div class="left-part">
+          <!-- <img src="/images/Cc.svg" alt="logo" /> -->
+          <h1>
+            <a href="#top"
+              ><span class="yellow">C</span>reative
+              <span class="yellow">c</span>ards</a
+            >
+          </h1>
+        </div>
+        <div class="right-part">
+          <ul>
+            <li>
+              <a href="#overmij"><p>About</p></a>
+            </li>
+            <li>
+              <a href="#mijnwerk"><p>Portfolio</p></a>
+            </li>
+            <li>
+              <a href="#services"><p>Services</p></a>
+            </li>
+            <li>
+              <a href="#contact"><p>Contact</p></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+    <div class="hero">
+      <section class="intro">
+        <p>
+          <span class="yellow">Y</span>our <span class="yellow">T</span>ailor
+          <span class="yellow">M</span>ade <span class="yellow">W</span>ebsite
+        </p>
+        <button>
+          <a href="#overmij">Discover</a>
+          <!-- <p><i class="fa-solid fa-angle-down"></i></p> -->
+        </button>
+      </section>
+    </div>
     <main>
       <div class="main-container">
-        <div class="cards basic">
-          <div class="card-top">
-            <h2>Basic</h2>
-            <img src="images/jongenschildert.jpg" alt="jongenschildert" />
+        <section class="about">
+          <p id="overmij">About Creative Cards</p>
+        </section>
+        <section class="portfolio" id="mijnwerk">
+          <div class="cards basic">
+            <div class="card-top">
+              <h2>Basic</h2>
+              <img src="images/jongenschildert.jpg" alt="jongenschildert" />
+            </div>
+            <div class="card-bottom">
+              <h3>My Paintings original</h3>
+              <p>Take a look at my first website ever</p>
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+              </ul>
+            </div>
           </div>
-          <div class="card-bottom">
-            <h3>My Paintings original</h3>
-            <p>Take a look at my first website ever</p>
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-            </ul>
+          <div class="cards advanced">
+            <div class="card-top">
+              <h2>Advanced</h2>
+              <img src="images/schilderen.jpg" alt="schilderen" />
+            </div>
+            <div class="card-bottom">
+              <h3>My Paintings renewed</h3>
+              <p>Take a look at the reworked version</p>
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="cards advanced">
-          <div class="card-top">
-            <h2>Advanced</h2>
-            <img src="images/schilderen.jpg" alt="schilderen" />
+          <div class="cards expert">
+            <div class="card-top">
+              <h2>Expert</h2>
+              <img src="images/tweedehands.jpg" alt="tweedehands" />
+            </div>
+            <div class="card-bottom">
+              <h3>second-hand trading</h3>
+              <p>Interactive with database and serverside scripting</p>
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+                <li><i class="fa-check fas"></i>PHP</li>
+              </ul>
+            </div>
           </div>
-          <div class="card-bottom">
-            <h3>My Paintings renewed</h3>
-            <p>Take a look at the reworked version</p>
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-              <li><i class="fa-check fas"></i>Flexbox</li>
-            </ul>
+          <div class="cards expert">
+            <div class="card-top">
+              <h2>Expert</h2>
+              <img src="images/psychologietest.jpg" alt="psychologietest" />
+            </div>
+            <div class="card-bottom">
+              <h3>psychology tests</h3>
+              <p>Learn about yourself</p>
+              <br />
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+                <li><i class="fa-check fas"></i>PHP</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="cards expert">
-          <div class="card-top">
-            <h2>Expert</h2>
-            <img src="images/tweedehands.jpg" alt="tweedehands" />
+          <div class="cards advanced">
+            <div class="card-top">
+              <h2>Advanced</h2>
+              <img src="images/quote.jpg" alt="quote" />
+            </div>
+            <div class="card-bottom">
+              <h3>Quote</h3>
+              <p>Quote of the day</p>
+              <br />
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+              </ul>
+            </div>
           </div>
-          <div class="card-bottom">
-            <h3>second-hand trading</h3>
-            <p>Interactive with database and serverside scripting</p>
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-              <li><i class="fa-check fas"></i>Flexbox</li>
-              <li><i class="fa-check fas"></i>PHP</li>
-            </ul>
+          <div class="cards expert">
+            <div class="card-top">
+              <h2>Expert</h2>
+              <img src="images/dating.jpg" alt="dating" />
+            </div>
+            <div class="card-bottom">
+              <h3>Dating</h3>
+              <p>Find your match</p>
+              <br />
+              <a href="#">Enter Website</a>
+              <ul>
+                <li><i class="fa-check fas"></i>HTML</li>
+                <li><i class="fa-check fas"></i>CSS</li>
+                <li><i class="fa-check fas"></i>Javascript</li>
+                <li><i class="fa-check fas"></i>PHP</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="cards expert">
-          <div class="card-top">
-            <h2>Expert</h2>
-            <img src="images/psychologietest.jpg" alt="psychologietest" />
-          </div>
-          <div class="card-bottom">
-            <h3>psychology tests</h3>
-            <p>Learn about yourself</p>
-            <br />
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-              <li><i class="fa-check fas"></i>Flexbox</li>
-              <li><i class="fa-check fas"></i>PHP</li>
-            </ul>
-          </div>
-        </div>
-        <div class="cards advanced">
-          <div class="card-top">
-            <h2>Advanced</h2>
-            <img src="images/quote.jpg" alt="quote" />
-          </div>
-          <div class="card-bottom">
-            <h3>Quote</h3>
-            <p>Quote of the day</p>
-            <br />
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-              <li><i class="fa-check fas"></i>Flexbox</li>
-            </ul>
-          </div>
-        </div>
-        <div class="cards expert">
-          <div class="card-top">
-            <h2>Expert</h2>
-            <img src="images/dating.jpg" alt="dating" />
-          </div>
-          <div class="card-bottom">
-            <h3>Dating</h3>
-            <p>Find your match</p>
-            <br />
-            <a href="#">Enter Website</a>
-            <ul>
-              <li><i class="fa-check fas"></i>HTML</li>
-              <li><i class="fa-check fas"></i>CSS</li>
-              <li><i class="fa-check fas"></i>Javascript</li>
-              <li><i class="fa-check fas"></i>Flexbox</li>
-              <li><i class="fa-check fas"></i>PHP</li>
-            </ul>
-          </div>
-        </div>
+        </section>
       </div>
       <footer>
         <div class="credential">

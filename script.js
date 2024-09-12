@@ -13,6 +13,16 @@ function changeImage(eventObject) {
   }, 2500);
 }
 
-const links = document.querySelectorAll('a');
+// Change navbar background on scroll
+window.addEventListener('scroll', function () {
+  const navbar = this.document.querySelector('.header-container');
+  if (this.window.scrollY > 0) {
+    navbar.classList.add('navbar-scroll');
+  } else {
+    navbar.classList.remove('navbar-scroll');
+  }
+});
+
+const links = document.querySelectorAll('.cards a');
 
 links.forEach((link) => link.addEventListener('click', changeImage));
