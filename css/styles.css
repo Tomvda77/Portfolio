@@ -50,7 +50,7 @@ a:active {
 }
 
 .header-container h1 .yellow {
-  font-size: 48px;
+  /* font-size: 48px; */
   color: var(--geel);
 }
 
@@ -60,6 +60,7 @@ a:active {
 
 .hero .yellow {
   font-size: 64px;
+  /* letter-spacing: 0.5; */
   color: var(--geel);
 }
 
@@ -110,12 +111,16 @@ a:active {
 .hero button {
   background-color: rgba(97, 27, 27, 0.5);
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 1.3px;
   margin-top: 20px;
   padding: 15px;
   border-radius: 10px;
   font-size: 2rem;
   cursor: pointer;
+}
+
+.hero button:hover {
+  border-style: inset;
 }
 .hero .intro button a {
   padding: 50px;
@@ -137,8 +142,10 @@ a:active {
   min-height: 100vh;
 }
 
-.portfolio {
-  padding: 0px;
+.portfolio-cards {
+  min-height: 100vh;
+  padding-top: 75px;
+  padding-bottom: 30px;
   background-color: var(--blauw);
   margin-top: 0px;
   display: flex;
@@ -146,7 +153,6 @@ a:active {
   text-align: center;
   gap: 10px;
   flex-wrap: wrap;
-  min-height: 100vh;
 }
 
 .cards {
@@ -210,6 +216,7 @@ a:active {
 .cards a:hover {
   background-color: var(--paars);
   color: white;
+  border-style: inset;
 }
 
 .cards ul {
